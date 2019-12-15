@@ -15,11 +15,11 @@
 
         <div class="flex-parent"
              :style="{
-            flexDirection: flex_direction,
-            flexWrap: flex_wrap,
-            justifyContent: justify_content,
-            alignItems: align_items,
-            alignContent:align_content
+            'flex-direction': flex_direction,
+            'flex-wrap': flex_wrap,
+            'justify-content': justify_content,
+            'align-items': align_items,
+            'align-content': align_content
         }"
         >
             <div :class="['flex-child', {show: HiddenContainer[0]}]" style="background-color: #098b83;">A</div>

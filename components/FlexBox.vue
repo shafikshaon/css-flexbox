@@ -274,9 +274,9 @@
     }
 
     .flex-child {
-        padding: 0 20px;
+        padding: 0 30px;
         line-height: 30px;
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
         color: #FFFFFF;
         display: none;

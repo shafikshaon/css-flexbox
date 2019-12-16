@@ -120,6 +120,12 @@
                             <input type="radio" value="space-between" v-model="justify_content"> space-between
                         </label>
                     </li>
+
+                    <li>
+                        <label>
+                            <input type="radio" value="space-evenly" v-model="justify_content"> space-evenly
+                        </label>
+                    </li>
                 </ul>
             </div>
             <div style="flex-grow: 2">
@@ -201,14 +207,14 @@
         <div>
  <pre>
      <code>
-         {
-            display: flex;
-            flex-direction: {{flex_direction}};
-            flex-wrap: {{flex_wrap}};
-            justify-content: {{justify_content}};
-            align-items: {{align_items}};
-            align-content: {{align_content}};
-         }
+ {
+    display: flex;
+    flex-direction: {{flex_direction}};
+    flex-wrap: {{flex_wrap}};
+    justify-content: {{justify_content}};
+    align-items: {{align_items}};
+    align-content: {{align_content}};
+ }
      </code>
  </pre>
         </div>
